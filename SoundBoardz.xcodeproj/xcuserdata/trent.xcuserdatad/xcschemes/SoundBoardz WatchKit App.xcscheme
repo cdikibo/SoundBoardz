@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+               BuildableName = "SoundBoardz WatchKit App.app"
+               BlueprintName = "SoundBoardz WatchKit App"
+               ReferencedContainer = "container:SoundBoardz.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96F1F0D31B606374008A9DB6"
+               BuildableName = "SoundBoardz.app"
+               BlueprintName = "SoundBoardz"
+               ReferencedContainer = "container:SoundBoardz.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9606D5221B60654B00C402C5"
+               BuildableName = "SoundBoardz WatchKit Extension.appex"
+               BlueprintName = "SoundBoardz WatchKit Extension"
+               ReferencedContainer = "container:SoundBoardz.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+            BuildableName = "SoundBoardz WatchKit App.app"
+            BlueprintName = "SoundBoardz WatchKit App"
+            ReferencedContainer = "container:SoundBoardz.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SoundBoardz">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+            BuildableName = "SoundBoardz WatchKit App.app"
+            BlueprintName = "SoundBoardz WatchKit App"
+            ReferencedContainer = "container:SoundBoardz.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+            BuildableName = "SoundBoardz WatchKit App.app"
+            BlueprintName = "SoundBoardz WatchKit App"
+            ReferencedContainer = "container:SoundBoardz.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SoundBoardz">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+            BuildableName = "SoundBoardz WatchKit App.app"
+            BlueprintName = "SoundBoardz WatchKit App"
+            ReferencedContainer = "container:SoundBoardz.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9606D52C1B60654B00C402C5"
+            BuildableName = "SoundBoardz WatchKit App.app"
+            BlueprintName = "SoundBoardz WatchKit App"
+            ReferencedContainer = "container:SoundBoardz.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

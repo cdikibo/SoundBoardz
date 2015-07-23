@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9606D5281B60654B00C402C5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606D5271B60654B00C402C5 /* InterfaceController.swift */; };
+		9606D52A1B60654B00C402C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9606D5291B60654B00C402C5 /* Images.xcassets */; };
+		9606D52E1B60654B00C402C5 /* SoundBoardz WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9606D52D1B60654B00C402C5 /* SoundBoardz WatchKit App.app */; };
+		9606D5361B60654B00C402C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9606D5341B60654B00C402C5 /* Interface.storyboard */; };
+		9606D5381B60654B00C402C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9606D5371B60654B00C402C5 /* Images.xcassets */; };
+		9606D53B1B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9606D5231B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9606D5441B606A6E00C402C5 /* suspense.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9606D5431B606A6E00C402C5 /* suspense.wav */; };
 		96F1F0DA1B606374008A9DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F1F0D91B606374008A9DB6 /* AppDelegate.swift */; };
 		96F1F0DC1B606374008A9DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F1F0DB1B606374008A9DB6 /* ViewController.swift */; };
 		96F1F0DF1B606374008A9DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F1F0DD1B606374008A9DB6 /* Main.storyboard */; };
@@ -16,6 +23,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9606D52F1B60654B00C402C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F1F0CC1B606374008A9DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9606D52C1B60654B00C402C5;
+			remoteInfo = "SoundBoardz WatchKit App";
+		};
+		9606D5391B60654B00C402C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F1F0CC1B606374008A9DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9606D5221B60654B00C402C5;
+			remoteInfo = "SoundBoardz WatchKit Extension";
+		};
 		96F1F0EA1B606374008A9DB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 96F1F0CC1B606374008A9DB6 /* Project object */;
@@ -25,7 +46,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9606D5421B60654B00C402C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9606D53B1B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9606D5231B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SoundBoardz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9606D5261B60654B00C402C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9606D5271B60654B00C402C5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9606D5291B60654B00C402C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9606D52D1B60654B00C402C5 /* SoundBoardz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoundBoardz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9606D5331B60654B00C402C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9606D5351B60654B00C402C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9606D5371B60654B00C402C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9606D5431B606A6E00C402C5 /* suspense.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = suspense.wav; sourceTree = "<group>"; };
 		96F1F0D41B606374008A9DB6 /* SoundBoardz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoardz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F1F0D81B606374008A9DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F1F0D91B606374008A9DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9606D5201B60654B00C402C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96F1F0D11B606374008A9DB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,11 +107,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9606D5241B60654B00C402C5 /* SoundBoardz WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9606D5271B60654B00C402C5 /* InterfaceController.swift */,
+				9606D5291B60654B00C402C5 /* Images.xcassets */,
+				9606D5251B60654B00C402C5 /* Supporting Files */,
+			);
+			path = "SoundBoardz WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9606D5251B60654B00C402C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9606D5261B60654B00C402C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9606D5311B60654B00C402C5 /* SoundBoardz WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9606D5341B60654B00C402C5 /* Interface.storyboard */,
+				9606D5371B60654B00C402C5 /* Images.xcassets */,
+				9606D5321B60654B00C402C5 /* Supporting Files */,
+			);
+			path = "SoundBoardz WatchKit App";
+			sourceTree = "<group>";
+		};
+		9606D5321B60654B00C402C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9606D5331B60654B00C402C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		96F1F0CB1B606374008A9DB6 = {
 			isa = PBXGroup;
 			children = (
 				96F1F0D61B606374008A9DB6 /* SoundBoardz */,
 				96F1F0EC1B606374008A9DB6 /* SoundBoardzTests */,
+				9606D5241B60654B00C402C5 /* SoundBoardz WatchKit Extension */,
+				9606D5311B60654B00C402C5 /* SoundBoardz WatchKit App */,
 				96F1F0D51B606374008A9DB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +159,8 @@
 			children = (
 				96F1F0D41B606374008A9DB6 /* SoundBoardz.app */,
 				96F1F0E91B606374008A9DB6 /* SoundBoardzTests.xctest */,
+				9606D5231B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex */,
+				9606D52D1B60654B00C402C5 /* SoundBoardz WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +181,7 @@
 		96F1F0D71B606374008A9DB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9606D5431B606A6E00C402C5 /* suspense.wav */,
 				96F1F0D81B606374008A9DB6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +207,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9606D5221B60654B00C402C5 /* SoundBoardz WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9606D5411B60654B00C402C5 /* Build configuration list for PBXNativeTarget "SoundBoardz WatchKit Extension" */;
+			buildPhases = (
+				9606D51F1B60654B00C402C5 /* Sources */,
+				9606D5201B60654B00C402C5 /* Frameworks */,
+				9606D5211B60654B00C402C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9606D5301B60654B00C402C5 /* PBXTargetDependency */,
+			);
+			name = "SoundBoardz WatchKit Extension";
+			productName = "SoundBoardz WatchKit Extension";
+			productReference = 9606D5231B60654B00C402C5 /* SoundBoardz WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		9606D52C1B60654B00C402C5 /* SoundBoardz WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9606D5401B60654B00C402C5 /* Build configuration list for PBXNativeTarget "SoundBoardz WatchKit App" */;
+			buildPhases = (
+				9606D52B1B60654B00C402C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoundBoardz WatchKit App";
+			productName = "SoundBoardz WatchKit App";
+			productReference = 9606D52D1B60654B00C402C5 /* SoundBoardz WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		96F1F0D31B606374008A9DB6 /* SoundBoardz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96F1F0F31B606374008A9DB6 /* Build configuration list for PBXNativeTarget "SoundBoardz" */;
@@ -122,10 +247,12 @@
 				96F1F0D01B606374008A9DB6 /* Sources */,
 				96F1F0D11B606374008A9DB6 /* Frameworks */,
 				96F1F0D21B606374008A9DB6 /* Resources */,
+				9606D5421B60654B00C402C5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9606D53A1B60654B00C402C5 /* PBXTargetDependency */,
 			);
 			name = SoundBoardz;
 			productName = SoundBoardz;
@@ -159,8 +286,19 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Caroline Dikibo";
 				TargetAttributes = {
+					9606D5221B60654B00C402C5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9606D52C1B60654B00C402C5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					96F1F0D31B606374008A9DB6 = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					96F1F0E81B606374008A9DB6 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -183,15 +321,36 @@
 			targets = (
 				96F1F0D31B606374008A9DB6 /* SoundBoardz */,
 				96F1F0E81B606374008A9DB6 /* SoundBoardzTests */,
+				9606D5221B60654B00C402C5 /* SoundBoardz WatchKit Extension */,
+				9606D52C1B60654B00C402C5 /* SoundBoardz WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9606D5211B60654B00C402C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606D52E1B60654B00C402C5 /* SoundBoardz WatchKit App.app in Resources */,
+				9606D52A1B60654B00C402C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9606D52B1B60654B00C402C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606D5361B60654B00C402C5 /* Interface.storyboard in Resources */,
+				9606D5381B60654B00C402C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96F1F0D21B606374008A9DB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9606D5441B606A6E00C402C5 /* suspense.wav in Resources */,
 				96F1F0DF1B606374008A9DB6 /* Main.storyboard in Resources */,
 				96F1F0E41B606374008A9DB6 /* LaunchScreen.xib in Resources */,
 				96F1F0E11B606374008A9DB6 /* Images.xcassets in Resources */,
@@ -208,6 +367,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9606D51F1B60654B00C402C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606D5281B60654B00C402C5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96F1F0D01B606374008A9DB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +395,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9606D5301B60654B00C402C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9606D52C1B60654B00C402C5 /* SoundBoardz WatchKit App */;
+			targetProxy = 9606D52F1B60654B00C402C5 /* PBXContainerItemProxy */;
+		};
+		9606D53A1B60654B00C402C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9606D5221B60654B00C402C5 /* SoundBoardz WatchKit Extension */;
+			targetProxy = 9606D5391B60654B00C402C5 /* PBXContainerItemProxy */;
+		};
 		96F1F0EB1B606374008A9DB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 96F1F0D31B606374008A9DB6 /* SoundBoardz */;
@@ -236,6 +413,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9606D5341B60654B00C402C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9606D5351B60654B00C402C5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		96F1F0DD1B606374008A9DB6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -255,6 +440,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9606D53C1B60654B00C402C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoundBoardz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9606D53D1B60654B00C402C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SoundBoardz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9606D53E1B60654B00C402C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SoundBoardz_WatchKit_Extension;
+				INFOPLIST_FILE = "SoundBoardz WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		9606D53F1B60654B00C402C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SoundBoardz_WatchKit_Extension;
+				INFOPLIST_FILE = "SoundBoardz WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		96F1F0F11B606374008A9DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,6 +634,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9606D5401B60654B00C402C5 /* Build configuration list for PBXNativeTarget "SoundBoardz WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9606D53E1B60654B00C402C5 /* Debug */,
+				9606D53F1B60654B00C402C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9606D5411B60654B00C402C5 /* Build configuration list for PBXNativeTarget "SoundBoardz WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9606D53C1B60654B00C402C5 /* Debug */,
+				9606D53D1B60654B00C402C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		96F1F0CF1B606374008A9DB6 /* Build configuration list for PBXProject "SoundBoardz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -409,6 +666,7 @@
 				96F1F0F51B606374008A9DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96F1F0F61B606374008A9DB6 /* Build configuration list for PBXNativeTarget "SoundBoardzTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +675,7 @@
 				96F1F0F81B606374008A9DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
